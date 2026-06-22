@@ -42,3 +42,8 @@ cd File_Explorer/Sunrise_Terminal
 dotnet run
 ```
 
+---
+
+# Preview
+
+![image](/images/intro.png)
