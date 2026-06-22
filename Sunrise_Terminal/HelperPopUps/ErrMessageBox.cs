@@ -30,7 +30,6 @@ namespace Sunrise_Terminal.HelperPopUps
         {
             graphics.DrawSquare(width, height, this.LocationX, LocationY, Heading);
             graphics.DrawLabel(this.LocationX, LocationY + this.height/2, Description, 2);
-            Console.Beep(2000, 500);
         }
 
         public override void HandleKey(ConsoleKeyInfo info, API api)

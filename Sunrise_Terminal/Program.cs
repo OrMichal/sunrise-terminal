@@ -14,19 +14,6 @@ namespace Sunrise_Terminal
             Application app = new Application();
             Console.CursorVisible = false;
             Blockers.BlockCancelation();
-            //new BootingPopUp(20, 4, "booting mc").Draw(0, app.Api);
-            /*
-            Console.Beep(440, 300);
-            Console.Beep(440, 300);
-            Console.Beep(440, 300);
-            Console.Beep(349, 150);
-            Console.Beep(523, 50);
-
-            Console.Beep(440, 300);
-            Console.Beep(349, 150);
-            Console.Beep(523, 50);
-            Console.Beep(440, 500);
-            */
 
             for (;;)
             {
